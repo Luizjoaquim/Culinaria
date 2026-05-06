@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .menu{
       background-color: #561515;
     width: 100%;
@@ -52,14 +56,20 @@ button{
     font-weight: 400;
     font-family: Inter;
 
+    display: flex;
     justify-content: center;
     align-content: center;
 
     cursor: pointer;
+    transition: 0.3s;
+}
+
+button img:hover{
+    transform: scale(1.05);
 }
 
 .logo img {
-  height: 150px; /* controla o tamanho */
+  height: 150px; 
   padding-left: 100px;
   display: flex;
   transition: 0.3s;
@@ -68,3 +78,63 @@ button{
 .logo img:hover {
   transform: scale(1.05);
 }
+
+.comeco{
+    background-image:url(imagens/tela_inicial.png);
+    background-size: cover;
+    background-position: center 35%;
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+    height: 610px;
+    display: flex;
+    justify-content:flex-start ;
+    align-items:center ;
+    
+    flex-shrink: 0;
+
+}
+
+.text_comeco{
+    width: 600px;
+    height: 450px;
+    margin-left: 170px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(249, 248, 215);
+}
+
+.import{
+    background-color: blue;
+    width: 100%;
+    height: 600px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.txt_imp{
+background-color: orange;
+margin-left: 100px;
+width: 800px;
+height: 500px;
+
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img_imp{
+    background-color: yellow;
+    width: 800px;
+    height: 500px;
+     margin-left:100px ;
+}
+
+
+
+
+
+
+
