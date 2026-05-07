@@ -12,9 +12,9 @@
 }
 
 .logo img {
-margin-left: 830px    ;
-  height: 150px; /* controla o tamanho */
-  transition: 0.3s;
+    margin-left: 830px    ;
+    height: 150px; /* controla o tamanho */
+    transition: 0.3s;
 }
 
 .logo img:hover {
@@ -40,10 +40,9 @@ margin-left: 830px    ;
 }
 
 .direita{
-    
     height: 100%;
     width: 50%;
-    background-color: rgb(228, 226, 220);
+    background-color: rgb(244, 241, 232);
 }
 
 .box{

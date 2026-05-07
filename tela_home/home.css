@@ -70,7 +70,7 @@ button img:hover{
 
 .logo img {
   height: 150px; 
-  padding-left: 100px;
+  margin-left:  100px;
   display: flex;
   transition: 0.3s;
 }
@@ -104,19 +104,19 @@ button img:hover{
     color: rgb(249, 248, 215);
 }
 
-.import{
-    background-color: blue;
+.div_tela1{
+    background-color: rgb(244, 241, 232);
     width: 100%;
     height: 600px;
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 0;
 
 }
 
 .txt_imp{
-background-color: orange;
 margin-left: 100px;
 width: 800px;
 height: 500px;
@@ -125,12 +125,266 @@ height: 500px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.txt_imp h1{
+    color: #561515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.txt_imp h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px ;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.txt_imp p{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.topicos {
+    width: 100%;
+    height: 266px;
+    margin-top:40px;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topico{
+    height: 100%;
+    width: 220px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+    transition: 0.3s;
+}
+
+.topico:hover {
+  transform: scale(1.05);
+}
+
+.topico1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    background-position: center;
+    background-size: 225px 150px;
+    position: relative;
+
+    margin-left: 58px;
+
+    transition: 0.3s;
+}
+
+.topico h1{
+    color: #561515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+
+.topico p{
+    color: rgb(118, 116, 116);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-left: 0px;
+    margin-top: 10px;
+
+    text-align: center;
+}
+
 .img_imp{
     background-color: yellow;
     width: 800px;
     height: 500px;
-     margin-left:100px ;
+    margin-left:100px;
+    
+    border-radius: 40px;
+    background-image: url(/tela_home/imagens/img_imp.png);
+    background-position: center;
+    background-size: cover;
 }
+
+.div_tela2{
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.txt_mom{
+    background-color:rgb(248, 248, 248);
+    width: 100%;
+    height: 150px;
+}
+
+.txt_mom h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #561515;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 0;
+}
+
+.txt_mom p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+    margin-left: 723px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+.coracao{
+    background-image: url(/tela_home/imagens/coracao.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 35px;
+    width: 310px;
+    margin-left: 42%;
+    margin-top: 7px;
+    
+}
+
+.cards{
+    background-color: rgb(244, 241, 232);
+    height: 370px;
+    width: 550px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 30px ;
+
+  transition: 0.3s;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+}
+
+.card_img{
+    height: 160px;
+    width: 100%;
+    border-radius: 30px ;
+    position: fixed;
+
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.emoji1{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    background-image: url(/tela_home/imagens/emojicard1.png);
+    background-position: center;
+    background-size: 225px 150px;
+    position: relative;
+   }
+
+   .emoji2{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-image: url(/tela_home/imagens/emojicard2.png);
+    background-position: center 45%;
+    background-size: 280px 190px;
+    position: relative;
+   }
+
+   .emoji3{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-image: url(/tela_home/imagens/emojicard3.png) ;
+    background-size: 280px 190px;
+
+    background-position: center 45%;
+    position: relative;
+   }
+
+   .cards h1{
+    color: #561515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 185px;
+    margin-bottom: 0;
+   }
+
+   .cards h2{
+    color: #561515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 205px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 32px;
+   }
+
+   .cards h3{
+    color: #561515;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 235px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size:  32px;
+   }
+
+   .cards p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    margin-left: 78px;
+    margin-top: 8px;
+   }
+
+  footer{
+    background-color: #561515;
+    width: 100%;
+    height: 180px;
+
+    display: flex;
+    justify-content: flex-start;
+   }
+
+   .navegacao{
+    margin-left: 20px;
+   }
+
+   .navegacao h1 {
+    font-family: 'Popins', sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+
+    margin-top: 30px;
+   }
+
+   .navegacao p{
+    font-family: 'Popins', sans-serif;
+    color: rgb(220, 211, 211);
+
+   }
+
+
 
 
 
