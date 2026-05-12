@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="acesso.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header class="menu">
+        <div class="logo">
+            <img src="/tela_home/imagens/logo.png"alt="imagem da logo">
+        </div>
+        <nav> 
+        <a href="#ranking">Ranking geral</a>
+         <a href="#doces">Doces</a>
+         <a href="#salgados">Salgados </a>
+         <a href="/tela_home/tela_home.html"><button>Sair</button></a>
+      </nav>
+    </header>
+
+    <div id="rankink" class="ranking">
+
+    </div>
+
+    <div id="doces" class="div_tela">
+        <div class="esquerda">
+         <div class="titulo">Doces</div>
+         <div class="coracao"></div>
+          <div class="receita"><div class="num">1</div>Bombom de óreo na travessa </div>
+          <iframe src="https://www.youtube.com/embed/dTzw6ncQYHE" frameborder="0"></iframe>
+          <button class="like" onclick="curtir(this)"> 
+            <img src="/tela_home/imagens/coraçao_botao.png" class="icone" style="width: 45px; height: 30px; margin-left: 15px;">Curtir </button>
+        </div>
+        <div class="direita">
+            <div class="box">
+            <button>Receita</button>
+            <div class="box2">
+                <p><b><i>Ingredientes:</i></b><br><br>
+                1 lata de leite condensado (395g) <br>
+                70g de leite em pó <br>
+                200g de creme de leite <br>
+                15g de manteiga <br>
+                200g de Oreo picado <br><br>
+                <b><i>Cobertura:</i></b><br> <br>
+                200g de chocolate meio amargo<br>
+                200g de creme de leite<br>
+                Oreo picado por cima pra decorar!<br><br>
+                <b><i>Modo de preparo:</i></b><br><br>
+                Na panela, adicione e misture o leite condensado, o creme de leite e o leite em pó, depois, acrescente também a manteiga. Leve a mistura para cozinhar no fogo baixo, mexendo bem até pegar ponto de brigadeiro. Em seguida, retire do fogo e adicione o óreo picado, mexa até envolver todo o óreo no brigadeiro. Transfira tudo para uma travessa espalhando bem e leve para a geladeira por no mínimo 4 horas. Para a cobertura, misture uma caixa de creme de leite e o chocolate amargo, depois, leve ao microondas para derreter. Acrescente a cobertura á travessa espalhando bem e decore o doce com mais óreo!
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="salgados" class="div_tela">
+        <div class="esquerda">
+         <div class="titulo">Salgados</div>
+         <div class="coracao"></div>
+          <div class="receita"><div class="num">1</div>Torta de batata</div>
+          <iframe src="https://www.youtube.com/embed/CJMpufC4OzI" frameborder="0"></iframe>
+          <button class="like" onclick="curtir(this)"> 
+            <img src="/tela_home/imagens/coraçao_botao.png" class="icone" style="width: 45px; height: 30px; margin-left: 15px;">Curtir </button>
+        </div>
+        <div class="direita">
+            <div class="box">
+            <button>Receita</button>
+            <div class="box2">
+                <p><b><i>Ingredientes:</i></b><br><br>
+                1 lata de leite condensado (395g) <br>
+                70g de leite em pó <br>
+                200g de creme de leite <br>
+                15g de manteiga <br>
+                200g de Oreo picado <br><br>
+                <b><i>Cobertura:</i></b><br> <br>
+                200g de chocolate meio amargo<br>
+                200g de creme de leite<br>
+                Oreo picado por cima pra decorar!<br><br>
+                <b><i>Modo de preparo:</i></b><br><br>
+                Na panela, adicione e misture o leite condensado, o creme de leite e o leite em pó, depois, acrescente também a manteiga. Leve a mistura para cozinhar no fogo baixo, mexendo bem até pegar ponto de brigadeiro. Em seguida, retire do fogo e adicione o óreo picado, mexa até envolver todo o óreo no brigadeiro. Transfira tudo para uma travessa espalhando bem e leve para a geladeira por no mínimo 4 horas. Para a cobertura, misture uma caixa de creme de leite e o chocolate amargo, depois, leve ao microondas para derreter. Acrescente a cobertura á travessa espalhando bem e decore o doce com mais óreo!
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+   
+   function curtir(botao) {
+
+    let icone = botao.querySelector(".icone");
+
+    botao.classList.toggle("ativo");
+
+    if(botao.classList.contains("ativo")) {
+
+        icone.src = "/tela_home/imagens/coracao_cheio.png";
+
+    } else {
+
+        icone.src="/tela_home/imagens/coraçao_botao.png";
+
+    }
+}
+
+  
+
+  
+
+
+</script>
+</html>

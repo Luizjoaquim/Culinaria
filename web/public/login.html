@@ -13,32 +13,23 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="icon" href="./assets/icon/favicon2.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!--Header-->
-
-    <div class="header">
-        <div class="container">
-            <h1 class="titulo">AquaTech</h1>
-            <ul class="navbar">
-                <li>
-                    <a href="index.html">Inicial</a>
-                </li>
-                <li>
-                    <a href="simulador.html">Simulador</a>
-                </li>
-                <li>|</li>
-                <li class="agora">
-                    <a href="#">Login</a>
-                </li>
-                <li>
-                    <a href="cadastro.html">Cadastro</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+  <header class="navbar">
+        <div class="logo"><a href="index.html">THE LAST OF US - PARTE 1</a></div>
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="#">Sobre o Jogo</a>
+            <a href="#">Personagens</a>
+            <a href="#">Quiz</a>
+            
+        </nav>
+       <div class="btn-login"><a href="cadastro.html">Cadastro/Login</a></div>
+        
+    </header>
 
 
     <div class="login">
@@ -126,6 +117,7 @@
                     console.log(JSON.stringify(json));
                     sessionStorage.EMAIL_USUARIO = json.email;
                     sessionStorage.NOME_USUARIO = json.nome;
+                    sessionStorage.CPF_USUARIO = json.cpf;
                     sessionStorage.ID_USUARIO = json.id;
                     sessionStorage.AQUARIOS = JSON.stringify(json.aquarios)
 

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AquaTech | Dashboards</title>
 
-    
+
     <link rel="stylesheet" href="./../css/dashboards.css">
     <link rel="stylesheet" href="./../css/estilo.css" />
     <script src="../js/sessao.js"></script>
@@ -36,6 +36,12 @@
 
             <div class="hello">
                 <h3>Olá, <span id="b_usuario">usuário</span>!</h3>
+            </div>
+            <div class="hello">
+                <h3>Seu CPF é: <span id="b_cpf">CPF</span></h3>
+            </div>
+            <div class="hello">
+                <h3>Seu Email é: <span id="b_email">EMAIL</span></h3>
             </div>
 
             <div class="btn-nav-white">
@@ -81,6 +87,8 @@
 
 <script>
     b_usuario.innerHTML = sessionStorage.NOME_USUARIO;
+    b_cpf.innerHTML = sessionStorage.CPF_USUARIO;
+    b_email.innerHTML = sessionStorage.EMAIL_USUARIO;
 
     let proximaAtualizacao;
 
