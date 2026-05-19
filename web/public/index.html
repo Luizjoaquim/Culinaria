@@ -1,47 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Culinaria e Tradição</title>
 </head>
-
 <body>
-    <header class="navbar">
-        <div class="logo"> <a href="index.html">THE LAST OF US - PARTE 1</a></div>
-        <nav class="menu">
-            <a href="index.html">Início</a>
-            <a href="#">Sobre o Jogo</a>
-            <a href="#">Personagens</a>
-            <a href="#">Quiz</a>
-            
-        </nav>
-        <div class="btn-login"><a href="login.html  ">Cadastro/Login</a></div>
-        
+    <header class="menu">
+        <div class="logo">
+            <img src="css/imagens/logo.png"alt="imagem da logo">
+        </div>
+    <nav> 
+        <a href="#comeco">Inicio</a>
+        <a href="#importancia">Importância</a>
+        <a href="#momentos">Momentos</a>
+        <a href="/acesso.html">Receitas</a>
+        <a href="login.html"><button>Cadastre-se</button></a>
+    </nav>
     </header>
-
+    <div id="comeco" class="comeco">
+        <div class="text_comeco">
+           <div style="font-size: 70px;">Culinária que conecta, transforma e permanece</div>
+            <br><br><br>
+            <div style="font-size: 25px;">Mais que comida, a culinária é cultura, tradição e amor compartilhado à mesa.</div>
+        </div>
     </div>
-    <section class="hero"> <div class="container_titulo">
-        <div class="homeTitulo">Sobreviver <br>é só o começo</div>
+
+    <div id="importancia" class="div_tela1">
+        <div class="txt_imp" >
+            <h1>A IMPORTÂNCIA DA CULINÁRIA</h1>
+            <h2>Muito Além da alimentação</h2>   
+            <div></div>
+            <p>A culinária carrega histórias, tradições e memórias.<br>Cada receita  
+                leva consigo, o amor, o carinho e a identidade<br> da pessoa, que  é eternizada de geração em geração </p>  
+            <div class="topicos">
+                <div class="topico">
+                    <div class="topico1" style="background-image: url(css/imagens/topico1.png);"></div>
+                    <h1>Cultura</h1>
+                    <p>Reflete a história e os <br> costumes de cada povo.</p>
+                </div>
+                <div class="topico">
+                <div class="topico1" style="background-image: url(css/imagens/topico2.png);"></div>
+                    <h1>Tradição</h1>
+                    <p>Receitas passadas de<br> geração em geração.</p>
+                </div>
+                <div class="topico">
+                    <div class="topico1" style="background-image: url(css/imagens/topico3.png);"></div>
+                    <h1>Conexão</h1>
+                    <p>Reune pesoas e cria <br> memórias inesquecíveis. </p>
+                </div>
+            </div> 
+                
+
+        </div>
+        <div class="img_imp"></div>
     </div>
-    <div class="container_texto">
-        <div class="homeTexto">The Last of Us é uma história sobre amor, perda e sobrevivência em um mundo devastado.
-            Conheça mais sobre esse universo magnífico e tocante, que depois de conhecer, ninguém esquece.</div></section>
-    <div><img class="imagem_home" alt=""></div>
-    <section class="sobre"></section>
-    <section class="personagens"></section>
+    
+     <div class="txt_mom">
+            <br><br>
+             <h1>Momentos importantes</h1>
+             <p>Datas que ficam mais especiais à mesa</p>
+             <div class="coracao"></div>
+    </div>
+   
+    <div id="momentos" class="div_tela2">
+        <div class="cards">
+            <div class="card_img" style="background-image: url(css/imagens/card1.png);">
+                <div class="emoji1"></div>
+            </div>
+            <h3>Natal</h3>
+            <p>A ceia de Natal é um momento repleto de <br>união, gratidão e pratos tradicionais que<br>  aquecem o coração e aproximam a família.</p>
+        </div>
+        <div class="cards">
+            <div class="card_img" style="background-image: url(css/imagens/card2.png);">
+                <div class="emoji2"></div>
+            </div>
+            <h2>Ano novo</h2>
+            <p>No Ano Novo, cada alimento carrega um <br>simbolismo de prosperidade, saúde e esperança para o novo ciclo.</p>
+        </div>
+        <div class="cards">
+             <div class="card_img" style="background-image: url(css/imagens/card3.png);">
+                <div class="emoji3"></div>
+            </div>
+            <h1>Outras datas</h1>
+            <p>Páscoa, São João, Dias das mães e tantas <br> outras datas são celebradas com pratos <br>
+                 tipicos que mantém a tradição viva.</p>
+             
+        </div>
+    </div>
 
+    <div class="div_tela3">
+        <div class="img_receita"></div>
+        <div class = "txt_receita">
+            <h2>RECEITAS</h2>
+            <h1>Para aquecer o coração</h1>
+            <div class="coracao" style="margin-left:100px; margin-top: 0; margin-bottom: 0;"></div>
+            <p>Faça login em nosso site para ter acesso <br>
+            a um mundo de sabores caseiros feitos para aquecer <br> o coração. Lá, você terá acesso 
+            exclusivo a receitas práticas,<br> deliciosas e cheias de carinho — desde pratos tradicionais 
+            até <br> sobremesas irresistíveis. Cozinhe com facilidade, surpreenda <br> no sabor e transforme cada 
+            refeição em um momento especial.
+        </p>            
+        <a href="login.html"><button>Faça login</button></a>
+        </div>
+        <div class="img_receita" style="width: 15%; "></div>
+    </div>
 
+    <footer>
+        <div style="height: 100%; width: 645px;"></div>
+        <div class="logo">
+         <img src="css/imagens/logo.png"alt="imagem da logo" style="height: 180px;">
+        </div>
+        <div class="navegacao">
+        <h1>Navegação</h1>
+        <p>Início <br> Importância <br> Momentos <br> Receitas
+        </p></div>
 
-
-
-
-
+    </footer>
 </body>
-
 </html>

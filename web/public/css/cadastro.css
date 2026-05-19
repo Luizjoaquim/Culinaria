@@ -33,7 +33,7 @@
 .img_esquerda{
     height: 100%;
     width: 50%;
-    background-image: url(/tela_home/imagens/cadastro.png);
+    background-image: url(imagens/login.png);
     background-size: cover;
     background-position: center 35%;
     position: relative;
@@ -62,7 +62,7 @@
     margin-top: 40px;
   height: 100px; /* controla o tamanho */
   width: 110px;
-  background-image: url(/tela_home/imagens/logosolo.png);
+  background-image: url(imagens/logosolo.png);
   background-size: cover;
   background-position: center; 
    position: relative;
@@ -79,6 +79,7 @@
     margin-top: 10px;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }   
 
 .exp_input{

@@ -216,7 +216,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left:100px;
     
     border-radius: 40px;
-    background-image: url(/tela_home/imagens/img_imp.png);
+    background-image: url(imagens/img_imp.png);
     background-position: center;
     background-size: cover;
 }
@@ -259,7 +259,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .coracao{
-    background-image: url(/tela_home/imagens/coracao.png);
+    background-image: url(imagens/coracao.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -305,7 +305,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100px;
     border-radius: 100%;
 
-    background-image: url(/tela_home/imagens/emojicard1.png);
+    background-image: url(imagens/emojicard1.png);
     background-position: center;
     background-size: 225px 150px;
     position: relative;
@@ -315,7 +315,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    background-image: url(/tela_home/imagens/emojicard2.png);
+    background-image: url(imagens/emojicard2.png);
     background-position: center 45%;
     background-size: 280px 190px;
     position: relative;
@@ -325,7 +325,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    background-image: url(/tela_home/imagens/emojicard3.png) ;
+    background-image: url(imagens/emojicard3.png) ;
     background-size: 280px 190px;
 
     background-position: center 45%;
@@ -380,7 +380,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
    .img_receita{
-    background-image: url(/tela_home/imagens/receitas.png);
+    background-image: url(imagens/receitas.png);
     background-size: cover;
     background-position: center;
 
